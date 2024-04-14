@@ -22,12 +22,6 @@ This project offers a unified solution for deploying infrastructure resources on
 - **Consistency and Scalability**: The project promotes consistency in infrastructure configurations and deployment processes, facilitating scalability and reducing operational overhead.
 - **Time and Cost Savings**: By automating the deployment process, organizations can save time and resources, enabling faster application delivery and innovation.
 
-## Future Enhancements
-
-- **Support for Additional Cloud Providers**: Expand the project to support other cloud providers such as Azure, Google Cloud Platform, or OpenStack.
-- **Enhanced Customization**: Introduce more customization options for advanced users, such as network configurations, security settings, and tagging strategies.
-- **Integration with CI/CD Pipelines**: Integrate the Terraform script into CI/CD pipelines for automated testing, validation, and deployment of infrastructure changes.
-
 ## Prerequisites
 
 - Terraform installed on your local machine. You can download it [here](https://www.terraform.io/downloads.html).
