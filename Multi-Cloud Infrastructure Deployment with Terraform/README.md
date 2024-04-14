@@ -41,21 +41,25 @@ This project offers a unified solution for deploying infrastructure resources on
    git clone https://github.com/lokesh-veshala/Terraform-Script
 
 2. Navigate to the project directory:
-```bash
-cd Terraform-Script/Multi-Cloud Infrastructure Deployment with Terraform
 
- Update the provider variable in the terraform.tfvars file to specify the desired environment (aws or vmware).
+   ```bash
+   cd Terraform-Script/Multi-Cloud Infrastructure Deployment with Terraform
+
+Update the provider variable in the terraform.tfvars file to specify the desired environment (aws or vmware).
 
 3. Initialize Terraform:
-```bash
-terraform init
+
+   ```bash
+   terraform init
 
 4. Review the execution plan:
-```bash
-terraform plan
+
+   ```bash
+   terraform plan
 
 5. Apply the changes:
-```bash
-terraform apply
+
+   ```bash
+   terraform apply
 
 Confirm the changes when prompted.
