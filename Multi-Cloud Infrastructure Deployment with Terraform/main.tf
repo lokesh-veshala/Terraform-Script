@@ -20,9 +20,10 @@ provider "aws" {
 }
 
 provider "vsphere" {
-  user           = var.vmware_username
-  password       = var.vmware_password
   vsphere_server = var.vmware_server
+ user           = var.vmware_username
+  password       = var.vmware_password
+  
 }
 
 # Determine the provider dynamically based on environment variables or command-line arguments
